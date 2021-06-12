@@ -1,0 +1,712 @@
+/*
+BIG TABLETS WITH SCREEN SIZE RANGING TO 1200px i.e WIDTHS SMALLER THAN 1140px
+*/
+@media only screen and (max-width: 1200px){
+    .navbar{
+        margin-top: 0px;
+        width: 200px;
+        height: 1500px;
+        background-color: #43425D;
+        opacity: 1;
+    }
+    .title-main{
+        display: block;
+        background-color: #FFFFFF;
+        opacity: 1;
+        margin:0;
+        width: 100%;    
+    }
+    
+    .title-main input[type=text]{
+        width:215px;
+        height:25px;    
+        border: none;
+        font-family: 'Source Sans Pro', FontAwesome;
+        margin-left: 20px;
+    }
+    .title-main input[type=text]::target-text{
+        color: #4D4F5C;
+        opacity: 1;
+        font-size: 51px;
+    }
+    .title-main input::placeholder{
+        text-align: left;
+        color: #4D4F5C;
+        opacity: 1;
+        font-size: 12px;
+    }     
+    
+    .fa-align-left{
+        color: #43425D;
+        font-size: 25px;
+        margin-left: 15.5px;
+    }
+    .fa-bell,.fa-chevron-down{
+        color: #bcbccb;
+        font-size: 15px;
+    }
+         
+    .propic{
+        display: inline;
+        text-align: right;
+        margin-left: 470px;
+        color: #4D4F5C;
+    }
+    .propic img{
+        height:45px;
+        border-radius: 50%;
+        vertical-align: middle;
+    } 
+    .overview-main{        
+        background-color: #f0f0f7;
+        margin-top:5px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        margin-right: -20px;
+        padding-right: -200px;
+    }
+    .add-funds{
+        display: flex;
+        padding:0.5em; 
+        height: 5vh;        
+        align-items:right; /* CROSS AXIS */
+        justify-content:right;
+        margin-left: 77em;
+        margin-top:-2em ;
+        color: #fff;
+        background-color: #6763E3;
+        cursor: pointer;
+        border-radius: 10%;
+        box-shadow: none;
+    }
+    .fa-plus-circle{
+        color: #302CB0;
+        background-color: #fff;
+        margin-top: 0.15rem;
+        border-radius: 45%;
+        width: 16%;
+    }  
+
+    .statistics-main{
+        display: flex;
+        padding:2px;     
+        display: flex;    
+        flex-direction:column;
+        background-color: #fff;    
+    }
+    .statistics-main h1{
+        display: flex;
+        flex-direction:row;
+        background-color: #fff;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .drop-down-list{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: right;
+        background-color: #fff;
+        width: 110px;
+        height: 25px;
+        margin-left: 150px;
+        margin-top:-25px;
+        box-shadow: 0px 2px 3px #0000000D;
+        border: 1px solid #D7DAE2;
+        border-radius: 4px;
+    }
+    .area-chart{
+        width:60vh;    
+        display: flex;
+        margin-left: 0px;
+        align-items:left;
+        justify-content:left;    
+        flex-direction:column;
+    }
+        
+    .sales{
+        display: flex;    
+        padding:1px;    
+        flex-direction:column;
+        background-color: #fff;
+        margin-left: -120px;
+        margin-top:13px;
+        margin-right: 200px;
+    }
+    .donut-chart{    
+        width:180%;
+        display:flex;
+        flex-direction:row;
+        align-items: initial;
+        justify-content: left;
+    }
+
+    .prof-details{ 
+        display: flex;
+        flex-direction:column;
+        background-color: #fff;
+        margin-top:-220px;
+        margin-left: 630px;
+    }
+    .referrer-main{
+        display: flex;
+        margin-top: -300px;
+        flex-direction: column;    
+        width: 50%;
+        
+    }
+    .prod-video{
+        margin-top:30px;
+        margin-right: 1px;
+        margin-left: 25px;
+    }
+}
+    
+/*
+SMALL TABLETS TO BIG TABLETS WITH SCREEN SIZE RANGING FROM 768px TO 1023px
+EXAMPLE:- IPADS IN LANDSCAPE MODE
+*/
+@media only screen and (max-width: 1023px){
+
+    .navbar{
+        margin-top: 0px;
+        width: 190px;
+        height: 1500px;
+        background-color: #43425D;
+        opacity: 1;
+        font-size: 1px;
+    }
+    .title-main{
+        display: block;
+        background-color: #FFFFFF;
+        opacity: 1;
+        margin:0;
+        width: 100%;    
+    }
+    
+    .title-main input[type=text]{
+        width:275px;
+        height:25px;    
+        border: none;
+        font-family: 'Source Sans Pro', FontAwesome;
+        margin-left: 20px;
+    }
+    .title-main input[type=text]::target-text{
+        color: #4D4F5C;
+        opacity: 1;
+        font-size: 51px;
+    }
+    .title-main input::placeholder{
+        text-align: left;
+        color: #4D4F5C;
+        opacity: 1;
+        font-size: 12px;
+    }     
+    
+    .fa-align-left{
+        color: #43425D;
+        font-size: 25px;
+        margin-left: 15.5px;
+    }
+    .fa-bell,.fa-chevron-down{
+        color: #bcbccb;
+        font-size: 15px;
+    }
+         
+    .propic{
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+        text-align: center;
+        margin-left: 610px;
+        margin-top: -20px;
+        color: #4D4F5C;
+    }
+    .propic img{
+        display: flex;
+        height:35px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    } 
+    .overview-main{        
+        background-color: #f0f0f7;
+        margin-top:5px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        margin-right: -20px;
+        padding-right: -200px;
+    }
+    .add-funds{
+        display: flex;
+        padding:0.5em; 
+        height: 5vh;        
+        align-items:right; /* CROSS AXIS */
+        justify-content:right;
+        margin-left: 47em;
+        margin-top:-2em ;
+        color: #fff;
+        background-color: #6763E3;
+        cursor: pointer;
+        border-radius: 10%;
+        box-shadow: none;
+    }
+    .fa-plus-circle{
+        color: #302CB0;
+        background-color: #fff;
+        margin-top: 0.15rem;
+        border-radius: 45%;
+        width: 16%;
+    }  
+
+    .statistics-main{
+        display: flex;
+        padding:2px;     
+        display: flex;    
+        flex-direction:column;
+        background-color: #fff;    
+    }
+    .statistics-main h1{
+        display: flex;
+        flex-direction:row;
+        background-color: #fff;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .drop-down-list{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: right;
+        background-color: #fff;
+        width: 110px;
+        height: 25px;
+        margin-left: 150px;
+        margin-top:-25px;
+        box-shadow: 0px 2px 3px #0000000D;
+        border: 1px solid #D7DAE2;
+        border-radius: 4px;
+    }
+    .area-chart{
+        width: 50vh;    
+        display: flex;
+        margin-left: 0px;
+        align-items:left;
+        justify-content:left;    
+        flex-direction:column;
+    }
+        
+    .sales{
+        display: flex;
+        width: 100%;    
+        padding:1px;    
+        flex-direction:column;
+        background-color: #fff;
+        margin-left: 500px;
+        margin-top:-1390px;
+        margin-right: 0px;
+    }
+    .donut-chart{    
+        width:50%;
+        display:flex;
+        margin-left: -40px;
+        flex-direction:row;
+        align-items: initial;
+        justify-content: left;
+    }
+
+    .prof-details{ 
+        display: flex;
+        flex-direction:column;
+        background-color: #fff;
+        margin-top:-1100px;
+        margin-left: 350px;
+        width: 40%;
+    }
+    .referrer-main{
+        display: flex;
+        margin-left: 250px;
+        margin-top: -500px;
+        flex-direction: column;    
+        width: 60%;
+        
+    }
+    .prod-video{
+        margin-top:-10px;
+        margin-right: 1px;
+        margin-left: 255px;
+    }
+
+}
+/*
+SMALL PHONES TO SMALL TABLETS WITH SCREEN SIZE RANGING FROM 481px TO 767px
+EXAMPLE:- IPADS IN PORTRAIT MODE
+*/
+@media only screen and (max-width: 767px){
+    .navbar{
+        margin-top: 0px;
+        width: 190px;
+        height: 1500px;
+        background-color: #43425D;
+        opacity: 1;
+        font-size: 1px;
+    }
+    .title-main{
+        display: block;
+        background-color: #FFFFFF;
+        opacity: 1;
+        margin:0;
+        width: 100%;    
+    }
+    
+    .title-main input[type=text]{
+        width:195px;
+        height:25px;    
+        border: none;
+        font-family: 'Source Sans Pro', FontAwesome;
+        margin-left: 20px;
+    }
+    .title-main input[type=text]::target-text{
+        color: #4D4F5C;
+        opacity: 1;
+        font-size: 51px;
+    }
+    .title-main input::placeholder{
+        text-align: left;
+        color: #4D4F5C;
+        opacity: 1;
+        font-size: 12px;
+    }     
+    
+    .fa-align-left{
+        color: #43425D;
+        font-size: 25px;
+        margin-left: 15.5px;
+    }
+    .fa-bell,.fa-chevron-down{
+        color: #bcbccb;
+        font-size: 15px;
+    }
+         
+    .propic{
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        text-align: center;
+        margin-left: 510px;
+        margin-top: -20px;
+        color: #4D4F5C;
+    }
+    .propic-name{
+        font-size: 9px;
+    }
+    .propic img{
+        display: flex;
+        height:25px;
+        border-radius: 50%;
+    } 
+    .overview-main{        
+        background-color: #f0f0f7;
+        margin-top:5px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        width:600px;
+    }
+    .add-funds{
+        display: flex;
+        padding:0.5em; 
+        height: 5vh;        
+        align-items:right; /* CROSS AXIS */
+        justify-content:right;
+        margin-left: 35em;
+        margin-top:-2em ;
+        color: #fff;
+        background-color: #6763E3;
+        cursor: pointer;
+        border-radius: 10%;
+        box-shadow: none;
+    }
+    .fa-plus-circle{
+        color: #302CB0;
+        background-color: #fff;
+        margin-top: 0.15rem;
+        border-radius: 45%;
+        width: 16%;
+    }  
+
+    .statistics-main{
+        display: flex;
+        padding:1px;     
+        width:50%;
+        flex-direction:column;
+        background-color: #fff; 
+    }
+    .statistics-main h1{
+        display: flex;
+        flex-direction:row;
+        background-color: #fff;
+        justify-content: left;
+    }
+    .drop-down-list{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: right;
+        background-color: #fff;
+        width: 110px;
+        height: 25px;
+        margin-left: 150px;
+        margin-top:-25px;
+        box-shadow: 0px 2px 3px #0000000D;
+        border: 1px solid #D7DAE2;
+        border-radius: 4px;
+    }
+    .area-chart{
+        width: 50vh;    
+        display: flex;
+        margin-left: 0px;
+        align-items:left;
+        justify-content:left;    
+        flex-direction:column;
+    }
+        
+    .sales{
+        display: flex;
+        width: 100%;    
+        padding:1px;    
+        flex-direction:column;
+        background-color: #fff;
+        margin-left: 250px;
+        margin-top:-1090px;
+        margin-right: 0px;
+    }
+    .sales h1{
+        margin-left: -50px;
+    }
+    .donut-chart{    
+        width:100%;
+        display:flex;
+        margin-left: -60px;
+        flex-direction:row;
+        align-items: initial;
+        justify-content: left;
+    }
+
+    .prof-details{ 
+        display: flex;
+        flex-direction:column;
+        background-color: #fff;
+        margin-top:-800px;
+        margin-left: 220px;
+        width: 60%;
+    }
+    .users-class--details h2{    
+        display: inline;
+        font-size: 0.95rem;
+        margin-top: -30.9rem;
+    }
+    .users-class--details .mobile{
+        margin-left:80px;
+    }
+    .referrer-main{
+        display: flex;
+        margin-left: 210px;
+        margin-top: -130px;
+        flex-direction: column;    
+        width: 40%;
+        
+    }
+    .prod-video{
+        margin-top:10px;
+        margin-right: 1px;
+        margin-left: 205px;
+    }
+
+}
+/*
+SMALL PHONES WITH SCREEN SIZE RANGING FROM 0 TO 480px
+EXAMPLE:- OLD IPHONES
+*/
+@media only screen and (max-width: 480px){
+    .navbar{
+        margin-top: 0px;
+        width: 190px;
+        height: 700px;
+        background-color: #43425D;
+        opacity: 1;
+        font-size: 1%;
+    }
+    .title-main{
+        display: block;
+        background-color: #FFFFFF;
+        opacity: 1;
+        margin:0;
+        width: 100%;    
+    }
+    
+    .title-main input[type=text]{
+        width:125px;
+        height:25px;    
+        border: none;
+        font-family: 'Source Sans Pro', FontAwesome;
+        margin-left: 20px;
+    }
+    .title-main input[type=text]::target-text{
+        color: #4D4F5C;
+        opacity: 1;
+        font-size: 51px;
+    }
+    .title-main input::placeholder{
+        text-align: left;
+        color: #4D4F5C;
+        opacity: 1;
+        font-size: 12px;
+    }     
+    
+    .fa-align-left{
+        color: #43425D;
+        font-size: 25px;
+        margin-left: 15.5px;
+    }
+    .fa-bell,.fa-chevron-down{
+        color: #bcbccb;
+        font-size: 15px;
+    }
+         
+    .propic{
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        text-align: center;
+        margin-left: 440px;
+        margin-top: -20px;
+        color: #4D4F5C;
+    }
+    .propic-name{
+        font-size: 9px;
+    }
+    .propic img{
+        display: flex;
+        height:25px;
+        border-radius: 50%;
+    } 
+    .overview-main{        
+        background-color: #f0f0f7;
+        margin-top:5px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        width: 550px;
+    }
+    .add-funds{
+        display: flex;
+        padding:0.5em; 
+        height: 7vh;
+        width:12vh;        
+        align-items:right; /* CROSS AXIS */
+        justify-content:right;
+        margin-left: 30em;
+        margin-top:-2em ;
+        color: #fff;
+        background-color: #6763E3;
+        cursor: pointer;
+        border-radius: 10%;
+        box-shadow: none;
+    }
+    .fa-plus-circle{
+        color: #302CB0;
+        background-color: #fff;
+        margin-top: 0.15rem;
+        border-radius: 45%;
+        width: 26%;
+    }  
+
+    .statistics-main{
+        display: flex;
+        padding:1px;     
+        width:5%;
+        flex-direction:column;
+        background-color: #fff; 
+    }
+    .statistics-main h1{
+        display: flex;
+        flex-direction:row;
+        background-color: #fff;
+        justify-content: left;
+    }
+    .drop-down-list{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: right;
+        background-color: #fff;
+        width: 110px;
+        height: 25px;
+        margin-left: 150px;
+        margin-top:-25px;
+        box-shadow: 0px 2px 3px #0000000D;
+        border: 1px solid #D7DAE2;
+        border-radius: 4px;
+    }
+    .area-chart{
+        width: 50vh;    
+        display: flex;
+        margin-left: 0px;
+        align-items:left;
+        justify-content:left;    
+        flex-direction:column;
+    }
+        
+    .sales{
+        display: flex;
+        width: 10%;    
+        padding:1px;    
+        flex-direction:column;
+        background-color: #fff;
+        margin-left: 250px;
+        margin-top:-290px;
+        margin-right: 0px;
+    }
+    .sales h1{
+        margin-left: -50px;
+    }
+    .donut-chart{    
+        width:790%;
+        display:flex;
+        margin-left: -60px;
+        flex-direction:row;
+        align-items: initial;
+        justify-content: left;
+    }
+
+    .prof-details{ 
+        display: flex;
+        flex-direction:column;
+        background-color: #fff;
+        margin-top:20px;
+        margin-left: 250px;
+        width: 60%;
+    }
+    .users-class--details h2{    
+        display: inline;
+        font-size: 0.95rem;
+        margin-top: -30.9rem;
+    }
+    .users-class--details .mobile{
+        margin-left:80px;
+    }
+    .referrer-main{
+        display: flex;
+        margin-left: 250px;
+        margin-top: 40px;
+        flex-direction: column;    
+        width: 40%;
+        
+    }
+    .prod-video{
+        margin-top:40px;
+        margin-right: 1px;
+        margin-left: 235px;
+    }
+
+}

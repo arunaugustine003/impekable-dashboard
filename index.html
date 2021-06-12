@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/resources/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/queries.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <title>Impekable</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="col span_1_of_4 navbar">
+                <div class="main-header-menu"><h1>IMPEKABLE</h1></div>
+                <ul class="main-nav">
+                    <div class="nav-menu-item-1"><li class="nav-items nav1"><a href="#"><i class="fas fa-home"></i>Home</a></li></div>
+                    <div class="nav-menu-item-2"><li class="nav-items nav2"><a href="#"><i class="fas fa-signal"></i>Dashboard</a></li></div>
+                    <div class="nav-menu-item-3"><li class="nav-items nav3"><a href="#"><i class="fas fa-envelope"></i>Inbox</a></li></div>
+                    <div class="nav-menu-item-4"><li class="nav-items nav4"><a href="#"><i class="fas fa-tasks"></i>Products</a></li></div>
+                  </ul>
+                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+            </div>
+        </nav>
+    </header>
+    <section class="section-main">
+         <div class="row title-main">             
+            <form action="#" class="form-main">
+                <i class="fas fa-align-left"></i>
+                 <input type="text" placeholder="&#xF002; Search transactions,invoices or help"/>
+                    <div class="propic">
+                    <i class="fas fa-bell"></i><span class="propic-name"> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;John Doe &nbsp;&nbsp;&nbsp;</span><i class="fas fa-chevron-down"></i>
+                    <img src="resources/img/000003@2x.png" alt="client">
+                    </div>
+            </form>                  
+            <div class="overview-main">
+                <h1 class="ow">Overview</h1> 
+                <button class="add-funds">
+                    Add Funds&nbsp;&nbsp;&nbsp;<i class="fas fa-plus-circle"></i>
+                </button>
+            </div> 
+            <div class="main-contents">
+                <div class="statistics-main col span_1_of_4">
+                    <h1 class="st">Statistics</h1>
+                        <select name="duration" id="duration" class="drop-down-list">
+                        <option value="l-6-m">Last 6 months</option>
+                        <option value="l-3-m">Last 3 months</option>
+                        <option value="l-m">Last month</option>
+                        </select>
+                    <div id="chart_div" class="area-chart"></div>
+                </div>  
+                <div class="sales col span_1_of_4">
+                    <h1 class="st">Sales Distribution</h1>
+                    <div id="donutchart" class="donut-chart"></div>
+                </div>   
+                <div class="prof-details col span_1_of_4">
+                    <img src="resources/img/Jana Navakova.png" alt="client" class="prof-pic-main">
+                    <h1 class="prof-name">Nick Herasimenka</h1>
+                    <h2 class="country-name">United States</h2><br>
+                    <div class="social-media-icons">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="far fa-envelope"></i>
+                    </div><br>
+                    <hr><br>
+                    <div class="our-users">
+                        <h2 class="our-users--heading">Our Users</h2>
+                        <i class="fas fa-ellipsis-h"></i><br>
+                    </div>
+                    <div class="user-class-main">
+                    <div class="users-class--details"> 
+                            <img src="resources/img/000002.png" alt="client" class="user-propics">                             
+                            <h1 class="user-name">Drew James</h2>                                                        
+                            <h2 class="country">United States</h2>
+                            <h2 class="mobile">Mobile : 871.567.4877</h2>
+                    </div>  
+                    <div class="users-class--details"> 
+                        <img src="resources/img/000004.png" alt="client" class="user-propics">                             
+                        <h1 class="user-name">Bavid Kames</h2>                                                        
+                        <h2 class="country">United States</h2>
+                        <h2 class="mobile">Mobile : 871.567.4877</h2>
+                    </div>
+                    <div class="users-class--details"> 
+                    <img src="resources/img/000003.png" alt="client" class="user-propics">                             
+                    <h1 class="user-name">Lavid Emes</h2>                                                        
+                    <h2 class="country">United States</h2>
+                    <h2 class="mobile">Mobile : 871.567.4877</h2>
+                    </div>  
+                    </div>                         
+                </div> 
+                <div class="referrer-main col span_1_of_3">
+                    <h1>Referrer</h1>
+                    <table class="referrer-table">
+                        <tr>
+                          <th>LOCATION</th>
+                          <th>VIEWS</th> 
+                          <th>SALES</th>
+                          <th>CONVERSION</th>
+                          <th>TOTAL</th>
+                        </tr>
+                        <tr>
+                          <td>google.com</td>
+                          <td>3746</td>
+                          <td>752</td>
+                          <td>43%</td>
+                          <td>$19,291</td>
+                        </tr>
+                        <tr>
+                          <td>facebook.com</td>
+                          <td>8126</td>
+                          <td>728</td>
+                          <td>32%</td>
+                          <td>$17,638</td>
+                        </tr>
+                        <tr>
+                          <td>twitter.com</td>
+                          <td>8836</td>
+                          <td>694</td>
+                          <td>28%</td>
+                          <td>$16,218</td>
+                        </tr>
+                        <tr>
+                          <td>Direct, email, IM</td>
+                          <td>1173</td>
+                          <td>645</td>
+                          <td>24%</td>
+                          <td>$14,421</td>
+                        </tr>
+                        <tr>
+                          <td>linkedin.com</td>
+                          <td>2739</td>
+                          <td>539</td>
+                          <td>20%</td>
+                          <td>$12,370</td>
+                        </tr>
+                       </table>
+                       <a href="#">Show More</a>                      
+                </div> 
+                <div class="prod-video col span_1_of_4">
+                    <div class="our-users">
+                        <h2 class="our-users--heading">Product Video</h2>
+                        <i class="fas fa-ellipsis-h video-menu"></i><br>
+                    </div>
+                    <div class="video-main">
+                         <video controls
+                            src="/resources/img/empower.mp4"
+                            poster="resources/img/Video tumbnail (1).png"
+                            type="video/mp4"
+                            width="320">Sorry, your browser doesn't support embedded videos,but don't worry, you can 
+                            <a href="https://www.youtube.com/watch?v=Oy6hk6Y7VHQ&ab_channel=Hexnode">download it</a>
+                            and watch it with your favorite video player!
+                         </video>
+                    </div>
+                </div>
+            </div>                       
+        </div> 
+    </section>
+<script src="https://kit.fontawesome.com/d88db7360c.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="resources/js/script1.js"></script>
+<script type="text/javascript" src="resources/js/script2.js"></script>
+</body>
+</html>
